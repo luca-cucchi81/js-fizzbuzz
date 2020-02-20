@@ -8,15 +8,15 @@ Scrivi un programma che stampi i numeri da 1 a 100, ma per i multipli di 3 stamp
 for (var numero = 1; numero <= 100; numero++) {
     if ((numero % 3 == 0) && (numero % 5 == 0)) {
         console.log('FizzBuzz');
-        document.getElementById('lista-pazzi').innerHTML+= '<li>FizzBuzz</li>';
+        document.getElementById('lista-pazzi').innerHTML+= '<li class="frizzi-pazzi">FizzBuzz</li>';
     } else if (numero % 3 == 0) {
         console.log('Fizz');
-        document.getElementById('lista-pazzi').innerHTML+= '<li>Fizz</li>';
+        document.getElementById('lista-pazzi').innerHTML+= '<li class="frizzi">Fizz</li>';
     } else if (numero % 5 == 0) {
         console.log('Buzz');
-        document.getElementById('lista-pazzi').innerHTML+= '<li>Buzz</li>';
+        document.getElementById('lista-pazzi').innerHTML+= '<li class="pazzi">Buzz</li>';
     } else {
         console.log(numero);
-        document.getElementById('lista-pazzi').innerHTML+= '<li>' + numero + '</li>';
+        document.getElementById('lista-pazzi').innerHTML+= '<li class="nofrizzi-nopazzi">' + numero + '</li>';
     }
 }
