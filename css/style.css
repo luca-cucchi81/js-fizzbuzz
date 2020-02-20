@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+h1{
+    margin: 20px 0;
+    text-decoration: underline;
+    font-size: 4rem;
+}
 .frizzi-pazzi{
     color: orange;
     font-size: 2rem;
@@ -38,4 +43,5 @@
 .nofrizzi-nopazzi{
     color: navy;
     font-weight: bold;
+    font-size: 23px;
 }
